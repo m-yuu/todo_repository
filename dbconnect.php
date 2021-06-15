@@ -12,7 +12,7 @@ class DbManager
         $dbname = "todo";
         $charset = "utf8mb4";
         $user = 'root';
-        $password = '';
+        $password = 'nanki0735';
         $options = [
             PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
