@@ -12,6 +12,9 @@ $_POST['contents'];
 // var_dump($_POST['title']);
 
 $title = $_POST['title'];
+// var_dump($title);
+// die;
+
 $contents = $_POST['contents'];
 $time = date("Y/m/d H:i:s");
 
