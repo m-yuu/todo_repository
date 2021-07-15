@@ -18,7 +18,7 @@ $time = date("Y/m/d H:i:s");
 
 // DBへのデータ保存
 $task = new Task(); //インスタンス化
-$task-> create($title,$contents,$time);
+$task-> create([$title,$contents,$time]);
 
 // リダイレクト
 header('Location:index.php');
